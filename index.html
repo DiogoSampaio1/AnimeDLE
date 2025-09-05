@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimeDLE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <header>
+      <h1>AnimeDLE ⚡</h1>
+      <p>Tente adivinhar o personagem!</p>
+    </header>
+
+    <div id="attempts" class="grid"></div>
+
+    <div class="input-container">
+      <input type="text" id="guess" placeholder="Digite o nome..." autocomplete="off" />
+      <ul id="suggestions" class="suggestions"></ul>
+      <button id="submitBtn">Chutar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
